@@ -1,0 +1,299 @@
+a,
+a:hover,
+a:focus,
+a:visited {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: normal;
+}
+
+body {
+	background-color: #f0f4f8;
+	font-family: "Roboto", sans-serif;
+	
+}
+
+
+
+.info {
+	justify-content: center;
+
+} 
+
+.info__logo {
+	height: 140px;
+	width: 140px;
+	border: 4px #e64c3c solid;
+	border-radius: 150px;
+	background-image: url("../sources/main-photo.jpg");
+	background-position: 45% 5%;
+    background-size: 150px;
+	margin-top: 80px;
+}
+
+.info__name {
+	font-weight: 700 ; 
+	color: #e64c3c;
+	margin: 20px 0 10px 0;
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+}
+
+.paragraph-name {
+	font-weight: 700;
+}
+
+.content__paragraph {
+	margin: 20px 0;
+}
+
+.content__timeline {
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0;
+}
+
+.content__timeline:before {
+	content: "";
+	position: absolute;
+	z-index: -999;
+	height: 5px;
+	width: 96%;
+	background-color: #2c3e50;
+}
+
+.blueFull {
+	height: 15px;
+	width: 15px;
+	background-color: #2c3e50;
+	border-radius: 50px;
+}
+
+.blueEmpty {
+	height: 15px;
+	width: 15px;
+	border: 1px solid #2c3e50;
+	border-radius: 50px;
+	background-color: #f0f4f8;
+	margin: 20px 0;	
+}
+
+.timelineItem {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.small__timeline {
+	margin: 30px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.skills__header {
+	background-color: #2c3e50;
+	border-left: 5px #e64c3c solid;
+	color: white;
+	text-align: left;
+}
+
+.skills {
+	margin-top: 20px;
+}
+
+.sign {
+	font-family: 'Alegreya', serif;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.infoBlock {
+	margin: 10px 0;
+	font-weight: 100;
+	
+}
+
+.infoBlock__bold {
+	font-weight: 700;
+}
+
+.infoBlock__personalHeaders {
+	display: inline-block;
+	width: 25%;
+}
+
+.infoBlock-flex {
+	display: flex;
+}
+
+.rateSkills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.skillInfo {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 0;
+}
+
+.skillInfo__sign {
+	font-weight: 700;
+	display: inline-block;
+}
+
+.skillInfo__rating {
+	display: inline-block;
+}
+
+.hobbies {
+	margin: 40px 0;
+}
+
+.hobbies__header {
+	display: flex;
+	align-items: center;
+}
+
+.arrow {
+	width: 300px;
+	display: inline-block;
+	-webkit-clip-path: polygon(0% 0%, 95% 0, 100% 50%, 95% 100%, 0% 100%);
+clip-path: polygon(0% 0%, 95% 0, 100% 50%, 95% 100%, 0% 100%);
+}
+
+.chevron {
+	display: inline-block;
+	width: 50px;
+	height: 25px;
+	background-color: #2c3e50;
+-webkit-clip-path: polygon(25% 0, 50% 50%, 25% 100%, 0% 100%, 25% 50%, 0% 0%);
+clip-path: polygon(25% 0, 50% 50%, 25% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.hobbies__list {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+.redFull {
+	height: 10px;
+	width: 10px;
+	border-radius: 50px;
+	display: inline-block;
+	background-color: #e64c3c;
+}
+
+.redEmpty {
+	height: 10px;
+	width: 10px;
+	border-radius: 50px;
+	display: inline-block;
+	border: 1px #e64c3c solid;
+}
+
+.item {
+	height: 80px;
+	width: 80px;
+	margin: 20px 0;
+}
+
+.item__sign {
+	padding-top: 80px;
+}
+
+.item:nth-child(1) {
+	background-image: url(../sources/css_sprites.png);
+	background-size: 580px;	
+	background-repeat: no-repeat;
+	background-position: 10px 0px;
+}
+
+.item:nth-child(2) {
+	background-image: url(../sources/css_sprites.png);
+	background-size: 580px;
+	background-repeat: no-repeat;
+	background-position: -66px 0px;
+}
+
+.item:nth-child(3) {
+	background-image: url(../sources/css_sprites.png);
+	background-size: 580px;
+	background-repeat: no-repeat;
+	background-position: -138px 0px;
+}
+
+.item:nth-child(4) {
+	background-image: url(../sources/css_sprites.png);
+	background-size: 580px;
+	background-repeat: no-repeat;
+	background-position: -216px 0px;
+}
+
+.item:nth-child(5) {
+	background-image: url(../sources/css_sprites.png);
+	background-size: 550px;
+	background-repeat: no-repeat;
+	background-position: -288px 0px;
+}
+
+.item:nth-child(6) {
+	background-image: url(../sources/css_sprites.png);
+	background-size: 550px;
+	background-repeat: no-repeat;
+	background-position: -376px 0px;
+}
+
+.item:nth-child(7) {
+	background-image: url(../sources/css_sprites.png);
+	background-size: 550px;
+	background-repeat: no-repeat;
+	background-position: -466px 0px;
+}
+
+
+
+@media (max-width: 600px) {
+	.rateSkills
+	 {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 745px) {
+	.content__timeline:before {
+		width: 94%;
+	}
+}
+
+@media (max-width: 516px) {
+	.content__timeline:before {
+		width: 91%;
+	}
+	
+}
+
+@media (max-width: 333px) {
+	.content__timeline:before {
+		width: 89%;
+	}
+}
+
